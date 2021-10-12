@@ -49,6 +49,7 @@ function App() {
 		}
 		setNotes([...notes, formData]);
 		setFormData(initialFormState);
+		//hello
 	}
 
 	async function deleteNote({ id }) {
